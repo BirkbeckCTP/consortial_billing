@@ -5,7 +5,9 @@
     {{ band_form.size|materializecss:"s12 m10 l8" }}
     {{ band_form.level|materializecss:"s12 m10 l8" }}
     {{ band_form.currency|materializecss:"s12 m10 l8" }}
-    {{ band_form.category }}
+    <div hidden>
+        {{ band_form.category }}
+    </div>
 </div>
 
 <div class="row">

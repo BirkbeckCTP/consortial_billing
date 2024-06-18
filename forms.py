@@ -65,9 +65,6 @@ class BandForm(BaseBandForm):
             'fee',
             'category',
         ]
-        widgets = {
-            'category': forms.HiddenInput,
-        }
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
